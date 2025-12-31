@@ -1,0 +1,14 @@
+export function GlobalStyles() {
+    return (
+        <style>{`
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      @keyframes scrollReverse {
+        0% { transform: translateX(-50%); }
+        100% { transform: translateX(0); }
+      }
+    `}</style>
+    );
+}
