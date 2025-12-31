@@ -5,15 +5,16 @@ const clients = [
         website: "fonderieart.com"
     },
     {
+        name: "Your Company Here",
+        logo: "https://imgs.search.brave.com/zftP2kassiSuxuJxw6-WPg5pa7tkl-vm6mR0jthppd8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc_dD02Mzgy/ODM5NzYyMTAwMDAw/MDA",
+        website: "#",
+        isPlaceholder: true
+    },
+    {
         name: "La maison en bois rond",
         logo: "https://www.lamaisonenboisrond.ca/wp-content/uploads/2024/01/maison_bois_rond_logo-removebg-preview-300x300.png",
         website: "lamaisonenboisrond.ca"
     },
-    {
-        name: "Your Company Here",
-        logo: "https://imgs.search.brave.com/zftP2kassiSuxuJxw6-WPg5pa7tkl-vm6mR0jthppd8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc_dD02Mzgy/ODM5NzYyMTAwMDAw/MDA",
-        website: "#"
-    }
 ];
 
 function ClientCard({ client }: { client: typeof clients[0] }) {
