@@ -2,7 +2,7 @@ const clients = [
     {
         name: "Fonderie Art Inverness",
         logo: "https://fonderieart.com/wp-content/uploads/2021/09/logo-footer-fonderie-art-inverness.png",
-        website: "fonderieart.com"
+        website: "https://fonderieart.com"
     },
     {
         name: "Your Company Here",
@@ -13,7 +13,7 @@ const clients = [
     {
         name: "La maison en bois rond",
         logo: "https://www.lamaisonenboisrond.ca/wp-content/uploads/2024/01/maison_bois_rond_logo-removebg-preview-300x300.png",
-        website: "lamaisonenboisrond.ca"
+        website: "https://www.lamaisonenboisrond.ca"
     },
 ];
 
